@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Eleanor Park — Academic CV</title>
+  <meta name="description" content="Research profile and selected work of Eleanor Park, computational social scientist.">
+  <meta property="og:title" content="Eleanor Park — Computational Social Scientist">
+  <meta property="og:description" content="Researching how people, platforms, and algorithms shape collective behavior.">
+  <meta property="og:image" content="https://lth0.github.io/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <style>
+    :root{
+      --ink:#171a18;--panel:#1d211e;--warm:#f2efe6;--muted:#9d9f96;
+      --sage:#9caf8e;--line:#363b36;--sans:"Neue Haas Grotesk","Aptos",sans-serif;
+      --mono:"IBM Plex Mono","Cascadia Mono",monospace;
+    }
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--ink);color:var(--warm);font-family:var(--sans);font-size:16px;line-height:1.55}
+    body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.18;background:linear-gradient(90deg,transparent 0,transparent calc(100% - 1px),rgba(156,175,142,.08) 100%);background-size:80px 100%}
+    a{color:inherit;text-decoration:none} a:focus-visible{outline:1px solid var(--sage);outline-offset:5px}
+    .shell{width:min(1440px,calc(100% - 96px));margin:auto;display:grid;grid-template-columns:390px minmax(0,1fr);gap:88px;padding:54px 0 100px}
+    aside{position:sticky;top:54px;height:calc(100vh - 108px);display:flex;flex-direction:column;border-top:1px solid var(--sage);padding-top:30px}
+    .eyebrow,.meta,.section-no,.year{font:500 11px/1.4 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--sage)}
+    h1{font-size:62px;line-height:.92;letter-spacing:-.055em;font-weight:450;margin:24px 0 22px;max-width:330px}
+    .role{color:#c9c7bf;font-size:18px;max-width:280px}
+    nav{margin-top:68px;display:grid;gap:11px;width:230px}
+    nav a{font:500 11px var(--mono);letter-spacing:.09em;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:14px;transition:.25s ease}
+    nav a:before{content:"";width:18px;height:1px;background:var(--line);transition:.25s ease}
+    nav a:hover{color:var(--warm);transform:translateX(4px)} nav a:hover:before{width:30px;background:var(--sage)}
+    .availability{margin-top:auto;border:1px solid var(--line);padding:16px 18px;font:11px/1.55 var(--mono);color:var(--muted)}
+    .availability i{display:inline-block;width:6px;height:6px;background:var(--sage);border-radius:50%;margin-right:9px;box-shadow:0 0 0 4px rgba(156,175,142,.08)}
+    main{padding-top:132px}
+    section{display:grid;grid-template-columns:86px 1fr;gap:24px;padding:0 0 72px;margin-bottom:72px;border-bottom:1px solid var(--line);scroll-margin-top:40px}
+    .section-body{max-width:790px} h2{font-size:30px;font-weight:450;letter-spacing:-.03em;margin:0 0 32px}
+    .lead{font-size:27px;line-height:1.35;letter-spacing:-.025em;color:#d9d7cf;margin:0}.lead em{font-style:normal;color:var(--sage)}
+    .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:30px}.tag{border:1px solid var(--line);padding:8px 11px;font:10px var(--mono);text-transform:uppercase;letter-spacing:.08em;color:#b8bab1}
+    .pub,.entry{display:grid;grid-template-columns:96px 1fr;gap:20px;padding:20px 0;border-top:1px solid var(--line);transition:background .25s,padding .25s}
+    .pub:hover{background:var(--panel);padding-left:14px;padding-right:14px}
+    .pub-title{font-size:18px;line-height:1.4}.pub-venue,.entry-sub{font:11px/1.6 var(--mono);color:var(--muted);margin-top:7px}
+    .entry h3{font-size:17px;font-weight:500;margin:0}.entry p{margin:7px 0 0;color:#b8bab1;font-size:14px;max-width:610px}
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.contact-grid a{background:var(--panel);padding:19px 20px;border:1px solid transparent;font:12px var(--mono);color:#c8cac0;display:flex;justify-content:space-between;transition:.25s}.contact-grid a:after{content:"↗";color:var(--sage)}.contact-grid a:hover{border-color:var(--sage);color:var(--warm)}
+    footer{grid-column:2;padding-top:12px;display:flex;justify-content:space-between;font:10px var(--mono);letter-spacing:.09em;text-transform:uppercase;color:#73776f}
+    @media(max-width:900px){.shell{width:calc(100% - 40px);display:block;padding-top:28px}aside{position:relative;top:0;height:auto}.availability{display:none}nav{grid-template-columns:repeat(3,1fr);width:auto;margin:36px 0 64px}main{padding:0}section{grid-template-columns:48px 1fr}footer{margin-left:72px}h1{font-size:52px}}
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <aside>
+      <div class="eyebrow">Curriculum Vitae · 2026</div>
+      <h1>Eleanor<br>Park</h1>
+      <div class="role">Computational social scientist studying collective behavior in digital systems.</div>
+      <nav aria-label="Primary navigation">
+        <a href="#about">About</a><a href="#research">Research Focus</a><a href="#publications">Publications</a>
+        <a href="#experience">Experience</a><a href="#education">Education</a><a href="#contact">Contact</a>
+      </nav>
+      <div class="availability"><i></i>Open to research collaborations<br>Cambridge, Massachusetts · UTC−4</div>
+    </aside>
+    <main>
+      <section id="about"><span class="section-no">01</span><div class="section-body"><h2>About</h2><p class="lead">I build computational methods to understand how <em>information, norms, and trust</em> move through networked publics.</p></div></section>
+      <section id="research"><span class="section-no">02</span><div class="section-body"><h2>Research Focus</h2><p>My work combines network science, causal inference, and large-scale behavioral data to examine online coordination and public-interest technology.</p><div class="tags"><span class="tag">Network Science</span><span class="tag">Causal Inference</span><span class="tag">Digital Governance</span><span class="tag">Human–AI Interaction</span></div></div></section>
+      <section id="publications"><span class="section-no">03</span><div class="section-body"><h2>Selected Publications</h2>
+        <a class="pub" href="#"><span class="year">2026 · 01</span><span><span class="pub-title">Collective attention under algorithmic mediation</span><span class="pub-venue">Nature Human Behaviour · Park, E., Alvarez, M. &amp; Shah, R.</span></span></a>
+        <a class="pub" href="#"><span class="year">2025 · 02</span><span><span class="pub-title">Auditing the social consequences of recommender systems</span><span class="pub-venue">Proceedings of the ACM on HCI · Park, E. &amp; Chen, L.</span></span></a>
+        <a class="pub" href="#"><span class="year">2024 · 03</span><span><span class="pub-title">Network interventions for resilient online communities</span><span class="pub-venue">Science Advances · Park, E., Singh, A. et al.</span></span></a>
+      </div></section>
+      <section id="experience"><span class="section-no">04</span><div class="section-body"><h2>Experience</h2>
+        <div class="entry"><span class="year">2023—Now</span><div><h3>Assistant Professor · Meridian Institute of Technology</h3><p>Social Systems Lab; faculty affiliate, Center for Responsible Computing.</p></div></div>
+        <div class="entry"><span class="year">2021—23</span><div><h3>Postdoctoral Fellow · Stanford University</h3><p>Computational Social Science and Digital Democracy programs.</p></div></div>
+      </div></section>
+      <section id="education"><span class="section-no">05</span><div class="section-body"><h2>Education</h2><div class="entry"><span class="year">2021</span><div><h3>PhD, Information Science · Cornell University</h3><p>Dissertation: Collective sensemaking in networked environments.</p></div></div><div class="entry"><span class="year">2015</span><div><h3>BA, Sociology &amp; Statistics · University of Chicago</h3></div></div></div></section>
+      <section id="contact"><span class="section-no">06</span><div class="section-body"><h2>Contact</h2><div class="contact-grid"><a href="mailto:eleanor.park@example.edu">Email</a><a href="#">Google Scholar</a><a href="#">ORCID</a><a href="#">Download CV</a></div></div></section>
+    </main>
+    <footer><span>Last updated · July 2026</span><span>Designed for clarity, built with restraint.</span></footer>
+  </div>
+</body>
+</html>
