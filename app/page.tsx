@@ -1,29 +1,29 @@
 const publications = [
   {
-    year: "2026",
-    title: "Forecasting collective attention with interpretable temporal networks",
-    venue: "Nature Human Behaviour · In press",
-    authors: "E. Park, M. Alvarez, S. Okafor",
+    year: "2025",
+    title: "Generative AI-driven Cross-layer Covert Communication: Fundamentals, Framework and Case Study",
+    venue: "IEEE Communications Magazine · Major revision",
+    authors: "Tianhao Liu et al. · First author",
   },
   {
     year: "2025",
-    title: "Unequal diffusion: How platform design shapes public knowledge",
-    venue: "Proceedings of the National Academy of Sciences 122(14)",
-    authors: "E. Park, J. Klein",
+    title: "PGN: The RNN's New Successor is Effective for Long-Range Time Series Forecasting",
+    venue: "NeurIPS 2025",
+    authors: "Yuxin Jia et al. · Co-author",
   },
   {
     year: "2024",
-    title: "Auditing social algorithms through participatory simulations",
-    venue: "ACM Conference on Fairness, Accountability, and Transparency",
-    authors: "E. Park, R. Shah, L. Moreno",
+    title: "Blockchain and Trusted Hardware-Enabled Data Scheduling for Edge Learning in Wireless IIoT",
+    venue: "IEEE Internet of Things Journal 11(21), 34229–34242",
+    authors: "Tianhao Liu et al. · First author",
   },
 ];
 
 const focus = [
-  "Computational social science",
-  "Responsible AI",
-  "Network dynamics",
-  "Human-centered data",
+  "Blockchain & IoT",
+  "Edge computing",
+  "Multi-agent reinforcement learning",
+  "Dynamic sharding",
 ];
 
 export default function Home() {
@@ -31,9 +31,9 @@ export default function Home() {
     <main className="shell">
       <aside className="identity" aria-label="Profile and navigation">
         <div>
-          <p className="eyebrow">Computational Social Scientist</p>
-          <h1>Eleanor<br />Park<span>.</span></h1>
-          <p className="affiliation">Assistant Professor<br />University of Amsterdam</p>
+          <p className="eyebrow">Cyberspace Security Researcher</p>
+          <h1>Tianhao<br />Liu<span>.</span></h1>
+          <p className="affiliation">PhD Candidate<br />Beijing Jiaotong University</p>
           <p className="availability"><i aria-hidden="true" /> Open to collaboration</p>
         </div>
 
@@ -46,7 +46,7 @@ export default function Home() {
           <a href="#contact"><span>06</span>Contact</a>
         </nav>
 
-        <p className="side-note">Based in Amsterdam, NL<br />Working across disciplines &amp; time zones</p>
+        <p className="side-note">Based in Beijing, China<br />Blockchain · IoT · Edge Intelligence</p>
       </aside>
 
       <div className="content">
@@ -54,12 +54,12 @@ export default function Home() {
           <div className="section-number">01</div>
           <div>
             <p className="kicker">About</p>
-            <h2>I study how people, platforms, and algorithms shape collective behavior.</h2>
-            <p className="lead">My work combines network science, causal inference, and participatory methods to build digital systems that are more transparent, equitable, and useful to the communities they affect.</p>
+            <h2>I build secure and adaptive systems for blockchain-enabled edge intelligence.</h2>
+            <p className="lead">My work combines blockchain, IoT, edge computing, and multi-agent reinforcement learning to address shard load imbalance, throughput fluctuations, consensus latency, and quality-of-service degradation.</p>
             <div className="quick-links">
-              <a href="mailto:eleanor.park@example.com">Email ↗</a>
-              <a href="#publications">Google Scholar ↗</a>
-              <a href="#contact">Download CV ↓</a>
+              <a href="mailto:leolth@bjtu.edu.cn">Email ↗</a>
+              <a href="http://infosec.bjtu.edu.cn/">Laboratory ↗</a>
+              <a href="#publications">Publications ↓</a>
             </div>
           </div>
         </section>
@@ -95,9 +95,10 @@ export default function Home() {
           <div>
             <p className="kicker">Experience</p>
             <div className="timeline">
-              <article><p className="year">2023—Now</p><div><h3>Assistant Professor</h3><p>University of Amsterdam · Digital Society Initiative</p></div></article>
-              <article><p className="year">2020—23</p><div><h3>Postdoctoral Fellow</h3><p>MIT Media Lab · Social Machines Group</p></div></article>
-              <article><p className="year">2018—20</p><div><h3>Research Scientist</h3><p>Data &amp; Society Research Institute · New York</p></div></article>
+              <article><p className="year">2023—Now</p><div><h3>Distributed Trustworthy Intelligent Computing</h3><p>National Key R&amp;D Program · DID and DRCM-based data ownership</p></div></article>
+              <article><p className="year">2022—24</p><div><h3>Railway Locomotive PHM Security</h3><p>Blockchain verification and cloud-edge-end security architecture</p></div></article>
+              <article><p className="year">2021—23</p><div><h3>APT Detection for Railway Networks</h3><p>Kill-chain assessment, CNN detection, and user behavior analysis</p></div></article>
+              <article><p className="year">2018—20</p><div><h3>Cross-domain Logistics Data Management</h3><p>Isomorphic cross-chain identity authentication and data verification</p></div></article>
             </div>
           </div>
         </section>
@@ -107,8 +108,9 @@ export default function Home() {
           <div>
             <p className="kicker">Education</p>
             <div className="timeline">
-              <article><p className="year">2018</p><div><h3>PhD, Information Science</h3><p>Cornell University · Ithaca, NY</p></div></article>
-              <article><p className="year">2012</p><div><h3>MSc, Applied Mathematics</h3><p>University College London · London, UK</p></div></article>
+              <article><p className="year">2026</p><div><h3>PhD, Cyberspace Security</h3><p>Beijing Jiaotong University · Expected June 2026</p></div></article>
+              <article><p className="year">2022</p><div><h3>MEng, Cyberspace Security</h3><p>Beijing Jiaotong University</p></div></article>
+              <article><p className="year">2019</p><div><h3>BEng, Information Security</h3><p>Beijing Jiaotong University</p></div></article>
             </div>
           </div>
         </section>
@@ -118,13 +120,13 @@ export default function Home() {
           <div>
             <p className="kicker">Contact</p>
             <h2>Let&apos;s explore a question together.</h2>
-            <p>I welcome conversations about research collaborations, invited talks, doctoral supervision, and thoughtful applications of computational methods.</p>
+            <p>I welcome conversations about blockchain, IoT, edge intelligence, network security, and multi-agent reinforcement learning.</p>
             <div className="contact-grid">
-              <a href="mailto:eleanor.park@example.com"><span>Email</span>eleanor.park@example.com ↗</a>
-              <a href="#about"><span>Office</span>REC B, Amsterdam ↗</a>
-              <a href="#publications"><span>Profiles</span>Scholar · ORCID · GitHub ↗</a>
+              <a href="mailto:leolth@bjtu.edu.cn"><span>Email</span>leolth@bjtu.edu.cn ↗</a>
+              <a href="http://infosec.bjtu.edu.cn/"><span>Laboratory</span>BJTU Security &amp; Privacy Lab ↗</a>
+              <a href="https://www.bjtu.edu.cn/"><span>University</span>Beijing Jiaotong University ↗</a>
             </div>
-            <footer>© 2026 Eleanor Park <span>Last updated July 2026</span></footer>
+            <footer>© 2026 Tianhao Liu <span>Last updated July 2026</span></footer>
           </div>
         </section>
       </div>
